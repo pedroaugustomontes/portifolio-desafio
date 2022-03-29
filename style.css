@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+/* ## **Tipo de fonte:**
+font-family: Merriweather Sans 
+font-weight: 400, 500 e 700 */
+
+body {
+  background-color: var(--body-bg-color);
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.profile-card {
+  width: 348px;
+  height: 292px;
+  background-color: var(--bg-cards);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.profile-card img {
+  display: block;
+  width: 128px;
+  margin-bottom: 30px;
+}
+.profile-card h1 {
+  margin-bottom: 10px;
+}
+
+.links-card {
+  width: 348px;
+  background-color: var(--bg-cards);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+.links-card a {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.links-card a img {
+  margin-right: 20px;
+  filter: invert(60%) sepia(1%) saturate(6437%) hue-rotate(209deg) brightness(86%) contrast(82%)
+}
+
+.tecnologias-card {
+  width: 348px;
+  background-color: var(--bg-cards);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+.tecnologias span {
+  display: block;
+  width: 86px;
+  background: #CB92B1;
+}
